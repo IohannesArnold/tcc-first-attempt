@@ -18,10 +18,6 @@
  *  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 #include "tcclib.h"
-#define RTLD_LAZY       0x001
-#define RTLD_NOW        0x002
-#define RTLD_GLOBAL     0x100
-extern FILE *stderr;
 
 //#define DEBUG
 /* preprocessor debug */
