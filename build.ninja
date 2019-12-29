@@ -1,0 +1,8 @@
+cc = cc
+
+rule cc
+  command = $cc -o $out $in
+
+build tcc: cc tcc.c
+
+default tcc
